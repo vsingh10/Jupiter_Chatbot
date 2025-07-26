@@ -94,7 +94,7 @@ def main():
             qa_chain = ConversationalRetrievalChain.from_llm(
                 llm=ChatGroq(
                     model_name="meta-llama/llama-4-maverick-17b-128e-instruct",
-                    temperature=0.1,
+                    temperature=0.5,
                     groq_api_key=GROQ_API_KEY
                 ),
                 retriever=vectorstore.as_retriever(search_kwargs={'k': 4}),
