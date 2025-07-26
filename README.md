@@ -1,4 +1,30 @@
-<p align="center">
-  <img src="https://github.com/vsingh10/Jupiter_Chatbot/raw/main/assets/Frame-10-1.png" alt="Jupiter Icon" width="20" style="vertical-align: middle;"/>
-  <strong>Jupiter Chatbot</strong>
-</p>
+# 💬 Jupiter Chatbot
+
+![Jupiter Logo](assets/Frame-10-1.png)
+
+Welcome to **Jupiter Chatbot** — a smart, reliable, and friendly AI assistant tailored for **Jupiter**, a fintech company that helps users manage their money. This assistant is designed to answer user queries based solely on Jupiter’s official services, policies, and offerings.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Contextual Q&A** using FAISS vector store
+- 🧠 **Memory-based Conversations** with LangChain's ConversationBufferMemory
+- 🤖 **LLM Integration** with Groq’s `llama-4-maverick` model
+- 🧾 **Custom Prompt Engineering** to maintain brand tone
+- ⚡ **Interactive UI** built with Streamlit
+- 🔗 **Link-aware responses** pointing to official Jupiter resources only
+
+---
+
+## 🛠️ Tech Stack
+
+- [Python](https://www.python.org/)
+- [Streamlit](https://streamlit.io/)
+- [LangChain](https://www.langchain.com/)
+- [HuggingFace Embeddings](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [Groq API](https://console.groq.com/)
+- [dotenv](https://pypi.org/project/python-dotenv/)
+
+---
