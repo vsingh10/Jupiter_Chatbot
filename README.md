@@ -1,6 +1,6 @@
-# 💬 Jupiter Chatbot
+# 💬 Jupiter Chatbot 
+🌐 **Live Demo:** [Try it on Streamlit →](https://jupiterchatbot.streamlit.app/)
 
-![Jupiter Logo](assets/Frame-10-1.png)
 
 Welcome to **Jupiter Chatbot** — a smart, reliable, and friendly AI assistant tailored for **Jupiter**, a fintech company that helps users manage their money. This assistant is designed to answer user queries based solely on Jupiter’s official services, policies, and offerings.
 
