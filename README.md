@@ -1,5 +1,5 @@
-# 💬 Jupiter Chatbot 
-🌐 **Live Demo** 
+# Jupiter Chatbot 
+**Live Demo** 
 
 [![Streamlit App](https://img.shields.io/badge/Launch%20App-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://jupiterchatbot.streamlit.app/)  
 
@@ -7,18 +7,18 @@ Welcome to **Jupiter Chatbot**, a smart, reliable, and friendly AI assistant tai
 
 ---
 
-## 🚀 Features
+## Features
 
-- 🔍 **Contextual Q&A** using FAISS vector store
-- 🧠 **Memory-based Conversations** with LangChain's ConversationBufferMemory
-- 🤖 **LLM Integration** with Groq’s `llama-4-maverick` model
-- 🧾 **Custom Prompt Engineering** to maintain brand tone
-- ⚡ **Interactive UI** built with Streamlit
-- 🔗 **Link-aware responses** pointing to official Jupiter resources only
+- **Contextual Q&A** using FAISS vector store
+- **Memory-based Conversations** with LangChain's ConversationBufferMemory
+- **LLM Integration** with Groq’s `llama-4-maverick` model
+- **Custom Prompt Engineering** to maintain brand tone
+- **Interactive UI** built with Streamlit
+- **Link-aware responses** pointing to official Jupiter resources only
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
