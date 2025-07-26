@@ -5,15 +5,15 @@ json_file_path = "dataset/scraped_data.json"
 output_file_path = "dataset/cleaned_data.json"
 
 cleaning_patterns = [
-    (r'hamburger-icon|close-icon|down-arrow|ratings-stars|qr-code', ''), # UI elements/icons
-    (r'\[.*?\]\s*\(https?://[^\s)]+\)|\[.*?\]\s*\(/[^)]*\)', ''), # Markdown links [text](url)
-    (r'\[.*?\]', ''), # Any remaining text in square brackets, e.g., [ Money ]
-    (r'\b\w+-icon\b', ''), # Specific icon names like rupay-credit-card-icon
-    (r'By .*?\s*·\s*\w+\s+\d{1,2},\s*\d{4}', ''), # "By Author · Date"
-    (r'By\s+\w+\s+', ''), # "By Author" without date
-    (r'Play\s*\S*', ''), # "Play" followed by non-whitespace (e.g., links to media)
-    (r'Load More\s*\S*', ''), # "Load More" followed by non-whitespace (pagination)
-    (r'\s+', ' '), # Replace multiple spaces/newlines with a single space
+    (r'hamburger-icon|close-icon|down-arrow|ratings-stars|qr-code', ''), 
+    (r'\[.*?\]\s*\(https?://[^\s)]+\)|\[.*?\]\s*\(/[^)]*\)', ''), 
+    (r'\[.*?\]', ''), 
+    (r'\b\w+-icon\b', ''), 
+    (r'By .*?\s*·\s*\w+\s+\d{1,2},\s*\d{4}', ''), 
+    (r'By\s+\w+\s+', ''), 
+    (r'Play\s*\S*', ''), 
+    (r'Load More\s*\S*', ''), 
+    (r'\s+', ' '), 
 ]
 
 
