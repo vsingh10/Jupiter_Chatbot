@@ -23,11 +23,12 @@ Welcome to **Jupiter Chatbot**, a smart, reliable, and friendly AI assistant tai
 - [Python](https://www.python.org/)
 - [Streamlit](https://streamlit.io/)
 - [LangChain](https://www.langchain.com/)
-- [HuggingFace Embeddings](https://huggingface.co/sentence-transformers/all-mpnet-base-v2)
 - [FAISS](https://github.com/facebookresearch/faiss)
 - [Groq API](https://console.groq.com/)
-- [dotenv](https://pypi.org/project/python-dotenv/)
-
+- [BeautifulSoup (bs4)](https://www.crummy.com/software/BeautifulSoup/)
+- [html2text](https://pypi.org/project/html2text/)
+- [HuggingFace Transformers](https://huggingface.co/)
+- [python-dotenv](https://pypi.org/project/python-dotenv/)
 ---
 ## Disclaimer
 
