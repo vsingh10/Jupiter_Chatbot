@@ -1,4 +1,4 @@
-<p align="left">
-  <img src="https://github.com/vsingh10/Jupiter_Chatbot/raw/main/assets/Frame-10-1.png" alt="Jupiter Icon" width="24" style="vertical-align: middle;"/>
-  <strong>Jupiter Chatbot</strong>
+<p align="left" style="display: inline-flex; align-items: center;">
+  <img src="https://github.com/vsingh10/Jupiter_Chatbot/raw/main/assets/Frame-10-1.png" alt="Jupiter Icon" width="28" style="margin-right: 8px; vertical-align: middle;">
+  <strong style="font-size: 18px;">Jupiter Chatbot</strong>
 </p>
