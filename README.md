@@ -29,3 +29,8 @@ Welcome to **Jupiter Chatbot**, a smart, reliable, and friendly AI assistant tai
 - [dotenv](https://pypi.org/project/python-dotenv/)
 
 ---
+## Disclaimer
+
+This chatbot is intended for demonstration and internal use only.  
+It is **not officially affiliated with Jupiter**.
+
