@@ -1,0 +1,15 @@
+PHASE 1: 
+1. Web Scraping
+2. Cleaning the data 
+3. Spliting the data into chunks
+4. Embedding the data 
+5. Creating a Vector Database or the knowledge base
+
+PHASE 2: Combining all + LLM
+
+1. Setting the Streamlit interface
+2. Setting Memory, Chat History
+3. Give a custom Prompt
+4. Loading the Vector Store
+5. Creating the chain and calling the llm model
+6. Printing the response
