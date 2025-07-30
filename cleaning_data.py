@@ -22,11 +22,6 @@ processed_data = []
 with open(json_file_path, "r", encoding="utf-8") as f:
     raw_data = json.load(f)
 
-if not isinstance(raw_data, list):
-    print("   - JSON content is a single object, converting to a list for processing.")
-    raw_data = [raw_data]
-print(f"   - Successfully loaded {len(raw_data)} entries.")
-
 for i, entry in enumerate(raw_data):
     entry_number = i + 1
     print(f"Processing entry {entry_number} (URL: {entry.get('metadata', {}).get('url', 'N/A')})")
